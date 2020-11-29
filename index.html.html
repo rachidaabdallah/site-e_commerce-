@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Projet e-commerce</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Satisfy&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c35b36b880.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- -barre navigation -------------------------------------------------------------------------------------->
+  <nav>
+    <div class="ctn main_nav">
+      <a href="#" class="logo_nav">
+        <img src="images/logo.png" alt="logo">
+      </a>
+      <ul class="links_nav">
+        <li><a href="#"><i class="fas fa-home"></i></a></li>
+        <li><a href="#" class="btn_lien">CATEGORIES</a></li>
+        <li><a href="#" class="btn_lien">NOUVEAUTES</a></li>
+        <li><a href="#" class="btn_lien">EXCLU WEB</a></li>
+        <!---menu pour le responsive --------------------------------------------------------------------------->
+        <li class="toggle_menu"><i class="fas fa-bars"> </i> </li>
+      </ul>
+      <ul class="links_nav icons_links">
+        <li><a href="#"><i class="far fa-heart"></i></a></li>
+        <li><a href="#"><i class="far fa-user"></i></a> </li>
+        <li><a href="#"><i class="fas fa-shopping-basket"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--- fin de la navigation ---------------------------------------------------------------------------------->
+  <!-- -header en background ---------------------------------------------------------------------------------->
+  <header class="background">
+    <div class="banniere">
+      <h1>Stimulez l'imagination de vos enfants et préparez-les pour l'aventure de l'école <br>
+        <a href="#" class="btn-primary call h1">A partir de 2 ans</a>
+      </h1>
+      <!-- titre sur le responsive -->
+      <h1 class="title"> Stimulez vos enfants pour l'école <br>
+        <a href="#" class="btn-primary call h1_title">A partir de 2 ans</a>
+      </h1>
+    </div>
+  </header>
+  <!-- fin du header  ----------------------------------------------------------------------------------------->
+  <!--- debut de la zone catégorie ---------------------------------------------------------------------------->
+  <div><h2>Les grandes étapes du développement</h2></div>
+  <section class="categories cat_responsive">
+
+    <a href="#">
+      <div class="img_cat">
+        <div class="overlay">
+          <h3>Lettres</h3>
+          <!-- -img_cat = catégorie lettres en background --->
+        </div>
+      </div>
+    </a>
+    <a href="#">
+      <div class="img_cat_ch">
+        <div class="overlay">
+          <h3>Chiffres</h3>
+          <!-- img_cat_ch = image de la categories chiffres en background -->
+        </div>
+      </div>
+    </a>
+    <a href="#">
+      <div class="img_cat_d">
+        <div class="overlay">
+          <h3>Dessin</h3>
+          <!-- img_cat_d = image de la categorie dessin en background -->
+        </div>
+      </div>
+    </a>
+
+  </section>
+  <!-- fin de la zone catégorie ----------------------------------------------------------------------------->
+
+  <!-- - debut zone des produits en vente ------------------------------------------------------------------->
+  <div class="n">
+    <h2>Nouveautés</h2>
+  </div>
+  <section class="produits">
+    <!-- premier produit -->
+    <article class="left">
+      <h4>Mes activités</h4>
+      <ul>
+        <li><a href="#"><i class="far fa-heart favoris"></i></a></li>
+      </ul>
+      <img src="images/produit1.png" alt="jeu_1">
+      <p>"Prêt pour la maternelle !"<br>Des activités ludiques pour le quotidien</p>
+      <p id="price">19.95€ <a href="#" id="details">+ de détails</a></p>
+      <a href="#" class="btn-primary">Ajouter au panier</a>
+    </article>
+    <!-- deusieme produit -->
+    <article class="middle">
+      <h4>C'est la rentrée !</h4>
+      <ul>
+        <li><a href="#"><i class="far fa-heart favoris"></i></a></li>
+      </ul>
+      <img src="images/produit2.png" alt="jeu_2">
+      <p>"Petite Section"<br>Ce jeu lui apprendra les bases</p>
+      <p id="price">19.95€ <a href="#" id="details">+ de détails</a></p>
+      <a href="#" class="btn-primary">Ajouter au panier</a>
+    </article>
+    <!-- dernier produit -->
+    <article class="right">
+      <h4>Notre sélection</h4>
+      <ul>
+        <li><a href="#"><i class="far fa-heart favoris"></i></a></li>
+      </ul>
+      <img src="images/produit3.png" alt="jeu_3">
+      <p>"Collection j'aide mon enfant a ..."<br>
+        dès 6 ans !</p>
+      <p id="price">29.95€ <a href="#" id="details">+ de détails</a></p>
+      <a href="#" class="btn-primary">Ajouter au panier</a>
+    </article>
+  </section>
+
+  <!-- fin de la zone articles en ventes ---------------------------------------------------------------->
+
+  <!--bande_promo en background -------->
+  <section class="promo ">
+    <div class="banniere">
+      <h2>Profitez de -25% à partir de 80€ d'achat
+        <a href="#" class="btn-primary call">C'est parti !!</a>
+      </h2>
+    </div>
+  </section>
+  <!-- partie avantage ---------------------------------------------------------------------------------->
+  <div class="avantages">
+    <ul class="col">
+      <li>
+        <img src="images/livraison.svg" alt="camionLivraison" id="truck">
+        <p class="truck">Livraison</p>
+      </li>
+      <li id="pay">
+        <img src="images/Visa.svg" alt="cartevisa" class="secur_paie">
+        <img src="images/MasterCard.svg" alt="carteMastercard" id="card">
+        <img src="images/PayPal.svg" alt="cartePaypal" id="card">
+        <p class="secur_paie_p">Paiement Sécurisé</p>
+      </li>
+      <li>
+        <img src="images/cadeaux.svg" alt="emballageOffert" id="packagingFree">
+        <p class="emballages">Emballages Offert</p>
+      </li>
+    </ul>
+  </div>
+  <!--deb du  footer  ----------------------------------------------------------------------------------------->
+  <footer class="top_footer">
+    <!-- formulaire  ------------------------------------------->
+    <form class="news_letter" action="index.html" method="post">
+      <label for="email">Inscrivez-vous & profitez de nos promos de Noël </label>
+      <input type="text" name="newsletter" value="email" required>
+      <input type=submit name="valider" value="Inscription" id="btn" class="submit"><br>
+    </form>
+    <!-- infos du site fake -------------------------------->
+    <div class="infos">
+      <div class="info_responsive">
+        <h5>En savoir plus</h5>
+        <ul class="info">
+          <li> <a href="#"> Notre histoire</a> </li>
+          <li> <a href="#">On parle de nous</a> </li>
+        </ul>
+      </div>
+      <!-- Aide & Contact ------------------------------------>
+      <div class="help_responsive">
+        <h5>Assistance</h5>
+        <ul class="help">
+          <li> <a href="#">Aide</a> </li>
+          <li> <a href="#">Contacts</a> </li>
+        </ul>
+      </div>
+      <div class="donnees">
+        <!-- mentions legales ------------------------------------------>
+        <h5>Vos Données</h5>
+        <ul class="privaty">
+          <li> <a href="#">Conditions Générales de Ventes</a> </li>
+          <li> <a href=#>Conditions Générales d'Utilisation</a> </li>
+        </ul>
+      </div>
+      <!-- reseaux ---------------------------------------------------->
+    </div>
+    <ul class="col reseauxTata">
+      <li class="reseaux">
+        <p class="r">Les Réseaux de</p>
+        <img src="images/logo.png">
+        <a href="#" id="icon_reseau">
+          <img src="images/facebook.svg" alt="logoFacebook">
+        </a>
+        <a href="#" id="icon_reseau">
+          <img src="images/instagram.svg" alt="logoInstagram">
+        </a>
+        <a href="#" id="icon_reseau">
+          <img src="images/twitter.svg" alt="logoTwitter">
+        </a>
+
+      </li>
+    </ul>
+  </footer>
+  <footer class="bottomFooter">
+    <div class="ancre">
+      <!-- ancre ---------------------------------------------------->
+      <a href="#">
+        <img src="images/arrowUp.svg" alt="ancreBacktoTop" id="flech_up">
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>

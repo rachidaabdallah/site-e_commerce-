@@ -1,0 +1,418 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  position: relative;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+h3 {
+  color: white;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 90px 0px;
+  padding: 0 84px;
+  text-align: center;
+  width: 100%;
+}
+
+h4 {
+  color: black;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+h5 {
+  color: green;
+  font-family: 'Cairo'sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* navigation debut ----------------------------------*/
+nav {
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: fixed;
+  z-index: 2;
+}
+
+nav, .main_nav {
+  width: 100%;
+}
+
+a:hover, li.active a {
+  color: #1DACE3;
+}
+
+.main_nav, .links_nav, .icons_links {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+li {
+  list-style-type: none;
+  text-align :center;
+  text-decoration: none;
+}
+
+.fa-home {
+  color: yellow;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.fa-user {
+  color: green;
+}
+
+.fa-shopping-basket {
+  color: #18ACFE;
+}
+
+.fa-home, .fa-heart, .fa-user, .fa-shopping-basket {
+  font-size: 2rem;
+  margin-right: 15px;
+}
+
+/* liens dans le ul de la links_nav---------  */
+.btn_lien {
+  background: #EBF2FF;
+  border-radius: 99px;
+  display: flex;
+  font-family: 'Cairo', cursive;
+  font-weight: 600;
+  margin: 10px 10px;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* menu pour le responsive -------- */
+.toggle_menu, .title, .h1_title {
+  display: none;
+  /* fin nav responsive ----------- */
+}
+
+/* fin css navigation -------------*/
+/* footer ------------------------------------*/
+footer, a {
+  color: grey;
+  font-size: 25px;
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer, ul {
+  margin: 0 0;
+  padding-left: 0;
+}
+
+.avantages {
+  border-top: 3px solid black;
+  width: 100%;
+}
+
+form {
+  margin-top: 51px;
+  height: 100px;
+}
+
+label {
+  color: grey;
+  font-family: 'Cairo', sans-serif;
+  margin-top: 10px;
+}
+
+input {
+  border: 2px solid black;
+  height: 50px;
+  width: 30%;
+  text-align: center;
+  color: grey;
+}
+
+.submit {
+  background-color: green;
+  border: 2px solid black;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 250px;
+}
+
+.col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  margin-top: 48px;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+
+
+/* ancre à droite ------------ */
+.bottomFooter .ancre {
+  bottom: 10px;
+  position: fixed;
+  right: 10px;
+  width: 5%;
+}
+
+.reseauxTata {
+  margin-top: 60px;
+  ;
+}
+
+/* --------------- fin FOOTER ----------------------------------------------------*/
+/* header CSS ----------------------------------------------*/
+.background {
+  background-image: url('../images/unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 1200px;
+}
+
+.background .banniere, .promo .banniere {
+  background-color: #18ACFE;
+  height: 160px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* call action du header -------- */
+.h1 {
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+/* pour google */
+/* .background .banniere {
+  position: relative;
+  top: 0;
+  bottom: 212px; */
+
+
+/* ------- fin de bannière header -----------*/
+/* css catégories --------------------------*/
+.categories {
+  align-items: center;
+  display: flex;flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.img_cat {
+  background-image: url('../images/lettres.png');
+}
+
+.img_cat_ch {
+  background-image: url('../images/chiffres.png');
+}
+
+.img_cat_d {
+  background-image: url('../images/dessin.png');
+}
+
+.img_cat, .img_cat_ch, .img_cat_d {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  position: relative;
+  width: 350px;
+}
+
+.favoris {
+  position: absolute;
+  font-size: 2rem;
+  margin-left: 90px;
+}
+
+.overlay h3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+}
+
+/* zone des produits -------------------------------------------*/
+article {
+  text-align: center;
+  width: calc(100%/3);
+}
+
+p {
+  color: grey;
+  padding-bottom: 22px;
+}
+
+.produits {
+  background: #FFAFBD;
+  background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);
+  background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 83px;
+  text-align: center;
+}
+
+#price {
+  color: #14992A;
+  font-family: 'Cairo', sans-serif;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.btn-primary {
+  background: #18ACFE;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Cairo', sans-serif;
+  font-size: 1.7rem;
+  padding: 15px 50px;
+  /*permet le centrage vertical*/
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px white;
+}
+
+.btn-primary:hover {
+  background: #0000;
+  background-color: white;
+  background: linear-gradient(#ffff, #ffff);
+  color: #18ACFE;
+}
+
+.btn-primary:active {
+  background: #18ACFE;
+  background-color: white;
+  background: linear-gradient(#0000, #18ACFE);
+  box-shadow: 1px 1px 10px white inset,
+    0 1px 0 white, 0.4;
+  color: #0000;
+}
+
+#details {
+  color: lightgoldenrodyellow;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+/* fin de la categorie produits -------------------- */
+/*debut de la bande promotinnel--------------------------------- */
+.promo {
+  background-image: url("../images/school_girl.jpg");
+  background-position: 100% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.promo .banniere {
+  bottom: 0;
+  height: 30%;
+  padding-top: 20px;
+  position: absolute;
+}
+
+.banniere h2 {
+  color: white;
+  font-family: 'Satisfy', cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* bouton da la bande promo */
+.call {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid white;
+  color: #18ACFE;
+  font-family: 'Satisfy', cursive;
+  font-size: 3rem;
+  margin-top: 15px;
+  padding: 5px 50px;
+  /*permet le centrage vertical*/
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0px 3px 0px white;
+}
+
+a.call:hover {
+  background: #ffffff;
+  background-color: white;
+  background: linear-gradient(#18ACFE, #ffffff);
+  box-shadow: 1px 1px 10px white inset,
+    0 1px 0 white, 0.4;
+  color: #ffffff;
+}
+
+.call :active {
+  background: #ffffff;
+  background-color: white;
+  background: linear-gradient(#ffffff, #ffffff);
+  color: #18ACFE;
+}
+
+/* fin de la promo et du css ----------------------------- */

@@ -1,0 +1,320 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .ctn {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 100%;
+  }
+
+  body {
+    line-height: 1.5;
+  }
+
+  /* responsive sur les tous les H --------------------------------*/
+  h1 {
+    display: none;
+  }
+
+  .title {
+    color: white;
+    display: block;
+    font-family: 'Satisfy', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 0 0;
+    padding: 7px 0;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .n h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+    margin-top: 20px;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+  }
+
+  /* fin du responsive sur les h */
+  /* responsive sur navigation --------------------------- */
+  .main_nav {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo_nav img {
+    width: 100%;
+  }
+
+  .main_nav .logo_nav {
+    display: flex;
+  }
+
+  .links_nav .icons_links {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .links_nav {
+    margin: 10px;
+  }
+
+  .main_nav .ctn, .links_nav, .icons_links {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .main_nav li {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .fa-heart {
+    margin-right: 15px;
+  }
+
+  .fa-user {
+    margin-right: 12px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  a {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  .fa-shopping-basket {
+    margin-right: 0px;
+  }
+
+  .links_nav .icons_links>a {
+    justify-content: flex-start;
+  }
+
+  li a>.fa-home {
+    display: none;
+  }
+
+  /* affichage du menu pour responsive */
+  .toggle_menu {
+    display: block;
+    border: 1, solid;
+    color: #14992A;
+    font-size: 1.4rem;
+  }
+
+  /* cacher les liens de la navigation pour la classe ul links_nav sur le responsive*/
+  .btn_lien {
+    display: none;
+  }
+
+  /* fin  du responsive nav */
+  /* footer responsive -------------------------------- */
+  /* cacher le formulaire *** */
+  form {
+    display: none;
+  }
+
+  li {
+    margin: 0 0;
+  }
+
+  .infos {
+    display: flow-root;
+    margin-top: 0;
+  }
+
+  .infos a {
+    font-size: 1rem;
+    display: inline-block;
+  }
+
+  .info_responsive {
+    margin-bottom: 30px;
+  }
+
+  .help_responsive {
+    margin-bottom: 30px;
+  }
+
+  li #packagingFree #truck {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .truck p, #truck {
+    width: 30%;
+    margin-top: 15px;
+  }
+
+  li #pay {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+  }
+
+  /* masque les 2 autres moyens de Paiement */
+  #card {
+    display: none;
+  }
+
+  .secur_paie, .secur_paie_p p {
+    align-items: center;
+    width: 35%;
+    font-size: 0.8rem;
+    margin-top: 12px;
+  }
+
+  .packagingFree p, #packagingFree {
+    font-size: 1rem;
+    margin-top: 8px;
+    width: 41%;
+  }
+
+  .emballages {
+    margin-right: 5px;
+  }
+
+  /* <p> pour reseaux */
+  .r {
+    margin-top: 20px;
+  }
+
+  .reseaux {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 35px;
+    
+  }
+
+  #icon_reseau {
+    display: inline;
+    width: 30%;
+  }
+
+  /*- masquage de l'ancre */
+  #flech_up {
+    display: none;
+  }
+
+  /* - fin du responsive footer -------------------------------- */
+  /* banniere du header */
+  .banniere {
+    font-size: 1.1rem;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .background {
+    padding-top: 50%;
+    width: 100%;
+  }
+
+  .background .banniere {
+    height: 120px;
+    margin-bottom: 40px;
+  }
+
+  /* btn du header */
+  .h1_title {
+    display: block;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  /* partie categorie---------------- */
+  .cat_responsive {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img_cat, .img_cat_ch, .img_cat_d {
+    height: 255px;
+    width: 280px;
+  }
+
+  .img_cat_d {
+    margin-bottom: 30px;
+  }
+
+  .produits {
+    display: inline-block;
+    padding-bottom: 35px;
+  }
+
+  .produits img {
+    width: 100%;
+  }
+
+  article {
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    width: 50%;
+  }
+
+  p {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    text-align: center;
+  }
+  #price, #details{
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    font-size: 1rem;
+    padding: 15px 30px;
+  }
+
+  /* bande promotion ------------------*/
+  .promo .banniere {
+    padding-top: 8px;
+    padding-bottom: 35px;
+  }
+
+  .promo {
+    height: 150px;
+  }
+
+  .banniere h2 {
+    font-size: 1.3rem;
+  }
+
+  h2 a {
+    margin-top: 15px;
+  }
+
+  /* bouton promo */
+  .call {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 15px 15px;
+    padding-bottom: 4px;
+    padding-top: 6px;
+  }
+}
